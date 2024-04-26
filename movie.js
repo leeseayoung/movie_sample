@@ -1,3 +1,5 @@
+//개굴  팁
+console.log(`안녕`);
 // API 요청 옵션 설정
 const options = {
     method: 'GET',
