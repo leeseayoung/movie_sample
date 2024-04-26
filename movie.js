@@ -85,7 +85,9 @@ searchButton.addEventListener('click', function () {
     // 알림창에 검색어 표시(갑자기 searchTerm 값이 안떠서 수정함)
     alert(searchTerm);
 });
-
-
+//입력 까지 완료 하고 alert 까지 확인 완료 했고!!
+//이제 검색창에 비슷한게 있으면 가지고 오면됨!!
+//for문으로 반복해서 제목이 비슷할경우 가져오기
+// 26일 날 해야지!!
 
 
