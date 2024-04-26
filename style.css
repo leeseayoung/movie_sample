@@ -1,0 +1,27 @@
+/* 영화 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+* {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.main{
+    
+    color: black;
+    background-image: url("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fcute-cartoon-penguin-white-background-66647695.jpg&type=a340");
+    background-position: center;
+    background-size: cover;
+}
+/* 영화 타이틀 */
+header{
+    background-color: black;
+}
+
+
+/* 영화 카드 정보 */
+.mycards {
+    width: 1200px;
+    
+    margin: 20px auto 20px auto ;
+}
