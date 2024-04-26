@@ -82,8 +82,10 @@ searchButton.addEventListener('click', function () {
         return;
     }
 
-    // 알림창에 검색어 표시
-    alert("${searchTerm}");
+    // 알림창에 검색어 표시(갑자기 searchTerm 값이 안떠서 수정함)
+    alert(searchTerm);
 });
+
+
 
 
