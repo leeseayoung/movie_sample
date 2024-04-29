@@ -15,7 +15,7 @@ fetch('https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1', opti
         // API 응답에서 영화 목록 추출
         const movies = data.results;
         // 카드를 표시할 부모 요소 선택
-        const mycards = document.querySelector('.mycards');
+        const mycards = document.querySelector('.myCards');
 
         // 영화 목록을 순회하며 카드 생성
         // 한 행에 최대 4개의 카드가 표시되도록 함
